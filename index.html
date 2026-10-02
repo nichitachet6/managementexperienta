@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Focar Studio</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27125 42 100 128%27%3E%3Cpath d=%27M175 48C185 75 215 95 215 128C215 150 197 164 175 164C153 164 135 150 135 128C135 108 147 96 155 84C158 98 164 104 169 104C172 86 171 66 175 48Z%27 fill=%27%23ff3da5%27/%3E%3Cpath d=%27M167 119L167 149L193 134Z%27 fill=%27%23f5e83a%27 stroke=%27%23f5e83a%27 stroke-width=%274%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Inter:wght@500;700;800&display=swap">
 <style>
 :root{
@@ -20,7 +21,9 @@ main,header,footer{position:relative}
 h1,h2,.logo{font-family:Inter,system-ui,sans-serif;letter-spacing:-.03em}
 .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
 nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
-.logo{font-weight:800;font-size:1.2rem}
+.logo{font-weight:800;font-size:1.2rem;display:inline-flex;align-items:center;gap:10px}
+.mark{height:1.9em;width:auto;flex:none}
+footer .mark{height:1.4em;vertical-align:middle;margin-right:8px}
 .btn{display:inline-block;font:600 1rem Montserrat,sans-serif;background:var(--yellow);color:var(--cta-ink);padding:14px 26px;border-radius:999px;text-decoration:none;transition:transform .15s,box-shadow .15s}
 .btn:hover{transform:translateY(-2px);box-shadow:0 8px 0 var(--pink)}
 .btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
@@ -98,7 +101,7 @@ dialog .x:focus-visible{outline:3px solid #fff;outline-offset:3px}
 <header>
   <div class="wrap">
     <nav>
-      <span class="logo">Focar Studio</span>
+      <span class="logo"><svg class="mark" viewBox="125 42 100 128" aria-hidden="true"><path d="M175 48C185 75 215 95 215 128C215 150 197 164 175 164C153 164 135 150 135 128C135 108 147 96 155 84C158 98 164 104 169 104C172 86 171 66 175 48Z" fill="#ff3da5"/><path d="M167 119L167 149L193 134Z" fill="#f5e83a" stroke="#f5e83a" stroke-width="4" stroke-linejoin="round"/></svg>Focar Studio</span>
       <a class="btn sm" href="video.mp4">Oferă feedback</a>
     </nav>
   </div>
@@ -176,7 +179,7 @@ dialog .x:focus-visible{outline:3px solid #fff;outline-offset:3px}
 </main>
 
 <footer>
-  <div class="wrap"><span>© Focar Studio</span><span>Andrieș Marius · Chetreanu Nichita</span></div>
+  <div class="wrap"><span><svg class="mark" viewBox="125 42 100 128" aria-hidden="true"><path d="M175 48C185 75 215 95 215 128C215 150 197 164 175 164C153 164 135 150 135 128C135 108 147 96 155 84C158 98 164 104 169 104C172 86 171 66 175 48Z" fill="#ff3da5"/><path d="M167 119L167 149L193 134Z" fill="#f5e83a" stroke="#f5e83a" stroke-width="4" stroke-linejoin="round"/></svg>© Focar Studio</span><span>Andrieș Marius · Chetreanu Nichita</span></div>
   <small class="tiny">*pagina e de show, feedbackul se dă live</small>
 </footer>
 <div class="bar"><a class="btn" href="video.mp4">Oferă feedback</a></div>
